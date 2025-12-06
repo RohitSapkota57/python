@@ -17,5 +17,5 @@ while True:
     elif guess > secret_number:
         print("Too high! Try again.")
     else:
-        print("🎉 Correct! You guessed the number!")
+        print("--- Correct! You guessed the number!---")
         break
