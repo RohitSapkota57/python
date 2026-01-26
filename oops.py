@@ -33,3 +33,18 @@ class dog(animal):
 d=dog()
 d.sound()
 d.bark()
+
+# Question 2: Inheritance with __init__
+# Create a class Person with __init__ method that takes name.
+# Create a class Student that inherits from Person and takes name and roll_no.
+# Print the student's name and roll number.
+class Preson():
+    def __init__(self,name):
+        self.name = name
+class student(Preson):
+    def __init__(self,name,roll_no):
+        super().__init__(name)
+        self.roll_no=roll_no
+l=student("rohit","22")
+print(l.name,l.roll_no)
+
